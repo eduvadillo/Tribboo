@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className='App'>
-        <div className='navbar'>
+        <div className='container-app-left'>
           <Navbar />
         </div>
         <div className='container-app-right'>

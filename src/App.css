@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   display: flex;
+  overflow-x: hidden;
 }
 
 .header {
@@ -97,7 +98,7 @@
   .header-left-down {
     display: flex;
     flex-direction: column;
-    margin-left: 13vw;
+    margin-left: 19vw;
     align-items: flex-start;
   }
 
@@ -138,12 +139,20 @@
   }
 
   .container-app-right {
-    padding-left: 3.5rem;
+    padding-left: 0rem !important;
     height: auto;
     width: 90vw;
   }
 
   .button-header {
     width: auto !important;
+  }
+  .container-app-left {
+    width: 20vw;
+    border-right: 2px solid black;
+  }
+
+  .header-name-project {
+    font-size: 4vw;
   }
 }
