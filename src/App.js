@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import baseDeDatos from "./initialState.json";
 
 function App() {
-  console.log(baseDeDatos);
+  /*  console.log(baseDeDatos); */
   return (
     <>
       <div className='App'>
