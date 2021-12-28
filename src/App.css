@@ -153,6 +153,12 @@
   }
 
   .header-name-project {
-    font-size: 4vw;
+    font-size: 4.1vw;
+  }
+  .navbar-icons-middle2 {
+    padding-bottom: 10vh !important;
+  }
+  .navbar-icons-down {
+    padding-bottom: 16vh !important;
   }
 }
