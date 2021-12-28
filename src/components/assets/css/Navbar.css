@@ -1,0 +1,48 @@
+.navbar-container {
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 8vw;
+}
+
+.navbar-icons-middle {
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar-icons-middle2 {
+  padding-bottom: 16vh;
+}
+
+.tribboo-logo {
+  width: 4vw;
+}
+
+.icons-navbar {
+  height: 7vw !important;
+}
+
+.navbar-logo {
+  padding-top: 2vh;
+  margin-left: 1rem;
+}
+
+.navbar-icons-down {
+  padding-bottom: 2vh;
+}
+
+.border {
+  padding-right: 2vw;
+  border-right: 6px solid #ffd52b;
+}
+
+.navbar-button {
+  background-color: white;
+  border: none;
+  width: 1vw;
+}
