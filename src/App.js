@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
@@ -25,7 +24,7 @@ function App() {
                     <div className='every-task-container'>
                       <h5 className='title-task'>{task.taskName}</h5>
                       <p className='description-task'>{task.description}</p>
-                      {task.phase == 1 ? (
+                      {task.phase === 1 ? (
                         <>
                           <div className='phase-and-date'>
                             <p className='task-phase1'>Fase {task.phase} </p>
@@ -34,7 +33,7 @@ function App() {
                             </p>
                           </div>
                         </>
-                      ) : task.phase == 2 ? (
+                      ) : task.phase === 2 ? (
                         <>
                           <div className='phase-and-date'>
                             <p className='task-phase2'>Fase {task.phase} </p>
@@ -43,7 +42,7 @@ function App() {
                             </p>
                           </div>
                         </>
-                      ) : task.phase == 3 ? (
+                      ) : task.phase === 3 ? (
                         <>
                           <div className='phase-and-date'>
                             <p className='task-phase3'>Fase {task.phase} </p>
@@ -70,7 +69,7 @@ function App() {
                     <div className='info-league-container'>
                       <h5 className='title-task'>{task.taskName}</h5>
                       <p className='description-task'>{task.description}</p>
-                      {task.phase == 1 ? (
+                      {task.phase === 1 ? (
                         <>
                           <div className='phase-and-date'>
                             <p className='task-phase1'>Fase {task.phase} </p>
@@ -79,7 +78,7 @@ function App() {
                             </p>
                           </div>
                         </>
-                      ) : task.phase == 2 ? (
+                      ) : task.phase === 2 ? (
                         <>
                           <div className='phase-and-date'>
                             <p className='task-phase2'>Fase {task.phase} </p>
@@ -88,7 +87,7 @@ function App() {
                             </p>
                           </div>
                         </>
-                      ) : task.phase == 3 ? (
+                      ) : task.phase === 3 ? (
                         <>
                           <div className='phase-and-date'>
                             <p className='task-phase3'>Fase {task.phase} </p>
@@ -115,7 +114,7 @@ function App() {
                     <div className='info-league-container'>
                       <h5 className='title-task'>{task.taskName}</h5>
                       <p className='description-task'>{task.description}</p>
-                      {task.phase == 1 ? (
+                      {task.phase === 1 ? (
                         <>
                           <div className='phase-and-date'>
                             <p className='task-phase1'>Fase {task.phase} </p>
@@ -124,7 +123,7 @@ function App() {
                             </p>
                           </div>
                         </>
-                      ) : task.phase == 2 ? (
+                      ) : task.phase === 2 ? (
                         <>
                           <div className='phase-and-date'>
                             <p className='task-phase2'>Fase {task.phase} </p>
@@ -133,7 +132,7 @@ function App() {
                             </p>
                           </div>
                         </>
-                      ) : task.phase == 3 ? (
+                      ) : task.phase === 3 ? (
                         <>
                           <div className='phase-and-date'>
                             <p className='task-phase3'>Fase {task.phase} </p>

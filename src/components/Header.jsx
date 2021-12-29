@@ -114,7 +114,7 @@ function Header() {
             {/*  </form> */}
           </div>
           <div className='header-photo-perfil'>
-            <img src={photoProfile} className='photo-profile' alt='photo-profile'></img>
+            <img src={photoProfile} className='photo-profile' alt='profile'></img>
           </div>
         </div>
         <div className='header-right-down'>
